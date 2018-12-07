@@ -1,11 +1,11 @@
 # Migration generator
-Basic generator of migrations for the templates.
+Basic generator of migrations for the templates.  
 
-Checks for changes in https://github.com/lblod/editor-templates (locally)
-Expects .ttls as input. (skips non TTL)
-Flushes what needs to be changed.
-Creates migrations for changes.
-Moves the templates to public graph.
+Checks for changes in https://github.com/lblod/editor-templates (locally)  
+Expects .ttls as input. (skips non TTL)  
+Flushes what needs to be changed.  
+Creates migrations for changes.  
+Moves the templates to public graph.  
 
 ## Caveats
 Many.. so the #1 rule would be to check the generated output!
@@ -18,8 +18,8 @@ Many.. so the #1 rule would be to check the generated output!
 ## Expected input
 <dl>
 <dt>/path/to/templates-repo</dt>
-<dd>olderCommit</dd>
-<dd>newerCommit</dd>
+<dt>olderCommit</dt>
+<dt>newerCommit</dt>
 </dl>
 
 ## Running the generator
